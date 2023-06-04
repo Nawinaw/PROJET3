@@ -1,0 +1,129 @@
+/****************EXERCICE 1****************/
+.imageexo1{
+    /*text-align: center;centrage de l'image*/
+    width: 300px;
+    height: 300px;/*image redimension*/
+    margin-left:auto;
+    margin-right:auto ;
+    display: block;
+}
+/*effet hover*/
+.imageexo1:hover{
+    transform: rotate(90deg);
+}
+
+/****************EXERCICE 2 : DISPLAY FLEX ****************/
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*
+.images{
+    box-sizing: border-box;
+}
+.une{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.deux{
+    position:relative;
+}
+.deux{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.trois{
+    display: grid;
+}
+
+.trois{
+    position:relative;
+}
+.trois{
+    position: absolute;
+    top: 75%;
+    left:25%;
+    transform: translate(-50%, -50%);
+}
+*/
+/****************EXERCICE 3 : MEDIAQUERY ****************/
+
+@media screen and (min-width:1000px){
+    .mediaquery {
+        background-color: yellow;
+    }
+    .petite_page{
+        visibility: hidden;
+    }
+} 
+
+@media screen and (600px <= width <= 1000px){
+    .mediaquery{
+        visibility: hidden;
+    }
+    .titre_qualite{
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width:600px){
+    .mediaquery{
+        visibility: hidden;
+    }
+
+    .petite_page{
+        visibility: visible;
+    }
+}
+
+
+/******************************************/
+/*body{
+    background-image: url(../images/fondef.avif)
+}*/
+/******************************************/
+            /*Style global*/
+/******************************************/
+
+footer
+{
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+    font-size:15px;
+    color:burlywood;
+}
+
+header{
+    width : 250px;
+    display : block;
+    margin : auto;
+    }
+
+*{
+        margin:0;
+        padding:0;
+}
+/*footer {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  footer {
+    padding-bottom: 2.5rem;     Hauteur du pied-de-page */
+  
+  
+  /*#pied-de-page {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; */
+
+

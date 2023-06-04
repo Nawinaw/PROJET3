@@ -1,0 +1,53 @@
+/****************EXERCICE 4****************/
+body {
+    height:600px;
+    background-image: url(../images/fondef.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.animation-element {
+    position: relative;
+    animation-name: gif;
+    animation-iteration-count:15, infinite;
+    animation-duration: 10s;
+  }
+  /*
+  @keyframes gif {
+    0%   {left:0px; top:0px;}
+    25%  {left:1600px; top:0px;}
+    50%  {left:1600px; top:700px;}
+    75%  {left:0px; top:700px;}
+    100% {left:0px; top:0px;}
+  }
+*/
+  @keyframes gif {
+    0%   {right:0px; }
+    50%  {right:-1080px; }
+    100% {right:0px; }
+  }
+
+  /*footer*/
+  footer
+{
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+    font-size:15px;
+    color: beige;
+}
+/*header*/
+header{
+  width : 250px;
+  display : block;
+  margin : auto;
+  }
+
+*{
+  margin:0;
+  padding:0;
+}
